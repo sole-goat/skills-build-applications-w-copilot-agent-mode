@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import User, Team, Activity, Workout, Leaderboard
+from core.models import User, Team, Activity, Workout, Leaderboard
 
 class TeamSerializer(serializers.ModelSerializer):
     class Meta:

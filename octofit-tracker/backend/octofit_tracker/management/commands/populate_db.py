@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from octofit_tracker.models import User, Team, Activity, Workout, Leaderboard
+from core.models import User, Team, Activity, Workout, Leaderboard
 from django.utils import timezone
 
 class Command(BaseCommand):

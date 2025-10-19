@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models import User, Team, Activity, Workout, Leaderboard
+from core.models import User, Team, Activity, Workout, Leaderboard
 
 class BasicModelTest(TestCase):
     def test_team_creation(self):
